@@ -18,7 +18,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://forma.prx.app.br"),
+  metadataBase: new URL("https://gaura.prx.app.br"),
   title: "PRX × GRUPO AURA | A Próxima Geração Precisa de um Lugar para Acontecer",
   description:
     "Proposta de parceria estratégica entre PRX e Grupo Aura. A PRX leva a comunidade. O Grupo Aura transforma comunidade em experiência.",
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     title: "PRX × GRUPO AURA | A Próxima Geração Precisa de um Lugar para Acontecer",
     description:
       "A PRX leva a comunidade. O Grupo Aura transforma comunidade em experiência. Proposta de parceria estratégica 2026.",
-    url: "https://prx.app.br",
+    url: "https://gaura.prx.app.br",
     siteName: "PRX × GRUPO AURA",
     images: [
       {
-        url: "/brand/prx-logo.png",
-        width: 2100,
-        height: 635,
+        url: "/brand/whatsapp-share.png",
+        width: 1200,
+        height: 630,
         alt: "PRX × GRUPO AURA",
       },
     ],
