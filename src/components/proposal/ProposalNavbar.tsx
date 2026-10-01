@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import { Play, Sparkles } from "lucide-react";
+import { FaviconLink } from "@/components/brand/FaviconLink";
 
 interface ProposalNavbarProps {
   onReplaySplash: () => void;
@@ -94,7 +95,7 @@ export function ProposalNavbar({ onReplaySplash }: ProposalNavbarProps) {
             <span>Rever animação</span>
           </button>
 
-          <a
+          <FaviconLink
             href="https://wa.me/5511989609797"
             target="_blank"
             rel="noopener noreferrer"
@@ -102,7 +103,7 @@ export function ProposalNavbar({ onReplaySplash }: ProposalNavbarProps) {
           >
             <Sparkles className="w-3.5 h-3.5 text-[#0BD9FD]" />
             <span>Falar com Rafael</span>
-          </a>
+          </FaviconLink>
         </div>
       </div>
     </header>

@@ -2,6 +2,7 @@
 "use client";
 
 import { PdfSlideFrame } from "./PdfSlideFrame";
+import { FaviconLink } from "@/components/brand/FaviconLink";
 import { PrxStaticLogo } from "@/components/brand/PrxAnimatedLogo";
 import { AuraLogo } from "@/components/brand/AuraLogo";
 import { ArrowUpRight, MessageCircle, Mail, Sparkles } from "lucide-react";
@@ -92,7 +93,7 @@ export function AuraVisaoSlide() {
           </div>
 
           <div className="flex flex-wrap items-center gap-3 shrink-0">
-            <a
+            <FaviconLink
               href="https://wa.me/5511989609797"
               target="_blank"
               rel="noopener noreferrer"
@@ -100,7 +101,7 @@ export function AuraVisaoSlide() {
             >
               <MessageCircle className="w-4 h-4" />
               <span>WhatsApp Direto</span>
-            </a>
+            </FaviconLink>
 
             <a
               href="mailto:contato@rafaelmolina.com.br"

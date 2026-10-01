@@ -4,6 +4,7 @@
 import Image from "next/image";
 import { Play, Sparkles } from "lucide-react";
 import { AuraLogo } from "@/components/brand/AuraLogo";
+import { FaviconLink } from "@/components/brand/FaviconLink";
 
 interface ProposalFooterProps {
   onReplaySplash: () => void;
@@ -64,7 +65,7 @@ export function ProposalFooter({ onReplaySplash }: ProposalFooterProps) {
           
           <div className="flex items-center gap-3">
             <span className="font-medium text-slate-600">Desenvolvido por</span>
-            <a
+            <FaviconLink
               href="https://viraweb.online"
               target="_blank"
               rel="noopener noreferrer"
@@ -80,7 +81,7 @@ export function ProposalFooter({ onReplaySplash }: ProposalFooterProps) {
                   className="h-full w-auto object-contain transition-opacity group-hover:opacity-85"
                 />
               </div>
-            </a>
+            </FaviconLink>
           </div>
 
           <div className="font-mono text-[11px] text-slate-400">

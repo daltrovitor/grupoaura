@@ -4,6 +4,7 @@
 import Image from "next/image";
 import { PdfSlideFrame } from "./PdfSlideFrame";
 import { Phone, Mail, ExternalLink } from "lucide-react";
+import { FaviconLink } from "@/components/brand/FaviconLink";
 
 export function SlideContactWrapup() {
   return (
@@ -56,7 +57,7 @@ export function SlideContactWrapup() {
 
           {/* Contact Direct Links */}
           <div className="mt-6 pt-5 border-t border-slate-300/80 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-            <a
+            <FaviconLink
               href="https://wa.me/5511989609797"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,7 +68,7 @@ export function SlideContactWrapup() {
                 <span className="text-[10px] font-mono text-slate-500 block">WhatsApp:</span>
                 <strong className="text-slate-900 font-bold">(11) 98960-9797</strong>
               </div>
-            </a>
+            </FaviconLink>
 
             <a
               href="mailto:contato@rafaelmolina.com.br"
@@ -80,7 +81,7 @@ export function SlideContactWrapup() {
               </div>
             </a>
 
-            <a
+            <FaviconLink
               href="https://instagram.com/rafaelmolina.prx"
               target="_blank"
               rel="noopener noreferrer"
@@ -95,9 +96,9 @@ export function SlideContactWrapup() {
                 <span className="text-[10px] font-mono text-slate-500 block">Instagram:</span>
                 <strong className="text-slate-900 font-bold">@rafaelmolina.prx</strong>
               </div>
-            </a>
+            </FaviconLink>
 
-            <a
+            <FaviconLink
               href="https://youtube.com/@rafaelmolinasa"
               target="_blank"
               rel="noopener noreferrer"
@@ -112,7 +113,7 @@ export function SlideContactWrapup() {
                 <span className="text-[10px] font-mono text-slate-500 block">YouTube:</span>
                 <strong className="text-slate-900 font-bold">@rafaelmolinasa</strong>
               </div>
-            </a>
+            </FaviconLink>
           </div>
         </div>
 

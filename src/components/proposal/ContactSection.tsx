@@ -2,6 +2,7 @@
 "use client";
 
 import { Phone, Mail, ExternalLink, Sparkles, Video, Share2 } from "lucide-react";
+import { FaviconLink } from "@/components/brand/FaviconLink";
 
 export function ContactSection() {
   return (
@@ -24,7 +25,7 @@ export function ContactSection() {
         {/* Contact Cards Grid */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           
-          <a
+          <FaviconLink
             href="https://wa.me/5511989609797"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,7 +41,7 @@ export function ContactSection() {
             <span className="text-xs text-slate-500 mt-2 flex items-center gap-1">
               Conversar no WhatsApp <ExternalLink className="w-3 h-3" />
             </span>
-          </a>
+          </FaviconLink>
 
           <a
             href="mailto:contato@rafaelmolina.com.br"
@@ -58,7 +59,7 @@ export function ContactSection() {
             </span>
           </a>
 
-          <a
+          <FaviconLink
             href="https://instagram.com/rafaelmolina.prx"
             target="_blank"
             rel="noopener noreferrer"
@@ -76,9 +77,9 @@ export function ContactSection() {
             <span className="text-xs text-slate-500 mt-2 flex items-center gap-1">
               Ver perfil <ExternalLink className="w-3 h-3" />
             </span>
-          </a>
+          </FaviconLink>
 
-          <a
+          <FaviconLink
             href="https://youtube.com/@rafaelmolinasa"
             target="_blank"
             rel="noopener noreferrer"
@@ -96,7 +97,7 @@ export function ContactSection() {
             <span className="text-xs text-slate-500 mt-2 flex items-center gap-1">
               Assistir vídeos <ExternalLink className="w-3 h-3" />
             </span>
-          </a>
+          </FaviconLink>
 
         </div>
 
