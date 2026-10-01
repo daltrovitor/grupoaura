@@ -31,8 +31,10 @@ export function AuraOportunidadeSlide() {
           {/* Card Left: PRX */}
           <div className="lg:col-span-5 rounded-md border border-slate-200 bg-white p-6 sm:p-8 shadow-xs flex flex-col justify-between h-full">
             <div>
-              <div className="w-36 h-12 flex items-center">
-                <PrxStaticLogo className="w-full h-full object-contain filter invert drop-shadow-xs" />
+              <div className="inline-flex items-center px-4 py-2.5 rounded-lg bg-slate-950 border border-slate-800 shadow-xs">
+                <div className="w-36 h-9 flex items-center">
+                  <PrxStaticLogo className="w-full h-full object-contain" />
+                </div>
               </div>
               <h3 className="mt-5 text-lg font-black text-slate-950">
                 A PRX leva a comunidade.
@@ -61,8 +63,10 @@ export function AuraOportunidadeSlide() {
           {/* Card Right: Grupo Aura */}
           <div className="lg:col-span-5 rounded-md border border-slate-200 bg-white p-6 sm:p-8 shadow-xs flex flex-col justify-between h-full">
             <div>
-              <div className="w-36 h-12 flex items-center">
-                <AuraLogo theme="light" className="w-full h-full object-contain" />
+              <div className="inline-flex items-center px-4 py-2.5 rounded-lg bg-slate-950 border border-slate-800 shadow-xs">
+                <div className="w-36 h-9 flex items-center">
+                  <AuraLogo theme="dark" className="w-full h-full object-contain" />
+                </div>
               </div>
               <h3 className="mt-5 text-lg font-black text-slate-950">
                 O Grupo Aura transforma comunidade em experiência.
