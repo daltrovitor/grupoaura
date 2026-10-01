@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     siteName: "PRX × GRUPO AURA",
     images: [
       {
-        url: "/brand/whatsapp-share.png",
-        width: 1200,
-        height: 630,
+        url: "/brand/prx-app-icon-square.png",
+        width: 512,
+        height: 512,
         alt: "PRX × GRUPO AURA",
       },
     ],
